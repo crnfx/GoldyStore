@@ -1,0 +1,100 @@
+.hero {
+
+    margin-bottom: $sectionMarginBottom;
+
+    &__content {
+        padding: 176px 0 176px 126px;
+    }
+
+    &__sale {
+        display: block;
+        margin-bottom: 30px;
+        font-family: 'Prata', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: $mainTextColor;
+    }
+
+    &__title {
+        margin: 0;
+        margin-bottom: 54px;
+        font-family: 'Prata', sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+        color: $mainTextColor;
+    }
+
+    &__link {
+        padding: 20px 56px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+        background-color: #303030;
+    }
+
+    &__swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__slide {
+        background-color: #F8F8F8;
+        background-image: url(../img/heroRing.png);
+        background-repeat: no-repeat;
+        background-position: 96%;
+        background-size: 36%;
+    }
+
+    &__slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__content {
+        background-image: url(../img/union.png);
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
+
+    &__next, &__prev {
+        width: 54px;
+        height: 54px;
+        border: 1px solid #303030;
+        border-radius: 50%;
+        transition: all 0.2s ease-in-out;
+    }
+
+    &__next {
+        transform: rotate(180deg);
+    }
+
+    &__next:active svg, &__prev:active svg {
+        transform: translateX(-10px);
+    }
+  
+
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        content: '';
+    }
+
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        content: '';
+    }
+
+    .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        background-color: transparent;
+        border: 1px solid #303030;
+        opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #303030;
+    }
+
+}

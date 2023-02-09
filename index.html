@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/choices.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Goldy Store</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+
+            <div class="header__top--tablet">
+                <div class="header__logo--tablet flex">
+                    <a href="index.html" class="header__link">
+                        <span class="header__company"><span class="header__company--styled">Goldy</span> Store</span>
+                        <br>
+                        <span class="header__descr">ювелирный магазин</span>
+                    </a>
+                </div>
+
+                <div class="header__top--tablet__wrapper">
+                    <div class="header__connect flex">
+
+                        <div class="header__location flex">
+    
+                            <span class="header__icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.99995 0C4.80479 0 2.20535 2.59944 2.20535 5.79456C2.20535 9.75981 7.39095 15.581 7.61173 15.8269C7.8191 16.0579 8.18117 16.0575 8.38817 15.8269C8.60895 15.581 13.7945 9.75981 13.7945 5.79456C13.7945 2.59944 11.1951 0 7.99995 0ZM7.99995 8.70997C6.39238 8.70997 5.08457 7.40213 5.08457 5.79456C5.08457 4.187 6.39242 2.87919 7.99995 2.87919C9.60748 2.87919 10.9153 4.18703 10.9153 5.79459C10.9153 7.40216 9.60748 8.70997 7.99995 8.70997Z"
+                                        fill="#303030" />
+                                </svg>
+                            </span>
+    
+                            <select name="select" class="header__select">
+                                <option value="Санкт-Петербург">Санкт-Петербург</option>
+                                <option value="Москва">Москва</option>
+                                <option value="Нижний Новгород">Нижний Новгород</option>
+                                <option value="Ростов-на-Дону">Ростов-на-Дону</option>
+                            </select>
+    
+                        </div>
+    
+                        <div class="header__tel flex">
+                            <span class="header__icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_306_55)">
+                                        <path
+                                            d="M15.5645 11.7424L13.3317 9.50954C12.5342 8.71209 11.1786 9.0311 10.8596 10.0678C10.6204 10.7855 9.82292 11.1842 9.10522 11.0247C7.51033 10.626 5.35723 8.5526 4.9585 6.87797C4.71927 6.16024 5.19774 5.36279 5.91544 5.12359C6.95212 4.80461 7.2711 3.44895 6.47365 2.65151L4.2408 0.418659C3.60285 -0.139553 2.64591 -0.139553 2.0877 0.418659L0.572553 1.93381C-0.942594 3.5287 0.732042 7.75516 4.48004 11.5032C8.22803 15.2511 12.4545 17.0056 14.0494 15.4106L15.5645 13.8955C16.1228 13.2575 16.1228 12.3006 15.5645 11.7424Z"
+                                            fill="#303030" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_306_55">
+                                            <rect width="16" height="16" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+    
+                            </span>
+                            <a href="tel:88007852535">8 800 785-25-35</a>
+                        </div>
+                    </div>
+                    <div class="header__widgets flex">
+
+                        <div class="header__personal">
+                            <a href="#" class="header__login">Вход</a>
+                            <a href="#" class="header__signin">Регистрация</a>
+                        </div>
+    
+                        <ul class="list-reset header__bar flex">
+                            <li>
+                                <button class="btn-reset header__btn heart">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9.99998 17.5C9.46248 17.0233 8.85498 16.5275 8.21248 16H8.20415C5.94165 14.15 3.37748 12.0566 2.24498 9.54829C1.87291 8.74973 1.67573 7.8809 1.66664 6.99996C1.66415 5.7912 2.14895 4.63245 3.01149 3.7856C3.87402 2.93875 5.04147 2.47529 6.24998 2.49996C7.23384 2.50151 8.19651 2.78586 9.02331 3.31913C9.38662 3.55493 9.71533 3.84017 9.99998 4.16663C10.2862 3.84145 10.615 3.55638 10.9775 3.31913C11.8039 2.78576 12.7664 2.50139 13.75 2.49996C14.9585 2.47529 16.1259 2.93875 16.9885 3.7856C17.851 4.63245 18.3358 5.7912 18.3333 6.99996C18.3248 7.88231 18.1276 8.75262 17.755 9.55246C16.6225 12.0608 14.0591 14.1533 11.7966 16L11.7883 16.0066C11.145 16.5308 10.5383 17.0266 10.0008 17.5066L9.99998 17.5ZM6.24998 4.16663C5.47374 4.15691 4.72504 4.454 4.16665 4.99329C3.62863 5.52176 3.32794 6.24583 3.33324 6.99996C3.34275 7.64204 3.48817 8.27484 3.75998 8.85663C4.29457 9.93888 5.0159 10.9183 5.89081 11.75C6.71665 12.5833 7.66665 13.39 8.48831 14.0683C8.71581 14.2558 8.94748 14.445 9.17915 14.6341L9.32498 14.7533C9.54748 14.935 9.77748 15.1233 9.99998 15.3083L10.0108 15.2983L10.0158 15.2941H10.0208L10.0283 15.2883H10.0325H10.0366L10.0516 15.2758L10.0858 15.2483L10.0916 15.2433L10.1008 15.2366H10.1058L10.1133 15.23L10.6666 14.7758L10.8116 14.6566C11.0458 14.4658 11.2775 14.2766 11.505 14.0891C12.3266 13.4108 13.2775 12.605 14.1033 11.7675C14.9783 10.9363 15.6997 9.95705 16.2341 8.87496C16.5109 8.28813 16.6584 7.64871 16.6667 6.99996C16.6701 6.24816 16.3696 5.52687 15.8333 4.99996C15.276 4.45823 14.5272 4.1587 13.75 4.16663C12.8016 4.15857 11.8949 4.5561 11.2583 5.25913L9.99998 6.70913L8.74165 5.25913C8.10503 4.5561 7.19838 4.15857 6.24998 4.16663Z"
+                                            fill="#303030" />
+                                    </svg>
+    
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn-reset header__btn stat">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <line x1="5.1" y1="10" x2="5.1" y2="17" stroke="#303030" stroke-width="2.2" />
+                                        <line x1="10.1" y1="2" x2="10.1" y2="17" stroke="#303030" stroke-width="2.2" />
+                                        <line x1="15.1" y1="5" x2="15.1" y2="17" stroke="#303030" stroke-width="2.2" />
+                                    </svg>
+    
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn-reset header__btn cart">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="2" y="5" width="16" height="13" rx="1" fill="white" />
+                                        <mask id="path-2-inside-1_306_45" fill="white">
+                                            <rect x="2" y="5" width="16" height="13" rx="1" />
+                                        </mask>
+                                        <rect x="2" y="5" width="16" height="13" rx="1" stroke="#303030" stroke-width="3.2"
+                                            mask="url(#path-2-inside-1_306_45)" />
+                                        <path d="M6 9L6 6C6 3.79086 7.79086 2 10 2V2C12.2091 2 14 3.79086 14 6L14 9"
+                                            stroke="#303030" stroke-width="1.6" />
+                                    </svg>
+    
+                                </button>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+
+                <div class="header__bottom--tablet__wrapper flex">
+                    <button class="btn-reset header__burger">
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                    </button>
+                    <nav class="header__navigation">
+                        <ul class="list-reset header__nav flex">
+                            <li class="header__item nav-active"><a href="#" class="nav__link">
+                                    Каталог
+                                </a></li>
+                            <li class="header__item"><a href="#" class="nav__link">
+                                    Акции
+                                </a></li>
+                            <li class="header__item"><a href="#" class="nav__link">
+                                    Бренды
+                                </a></li>
+                            <li class="header__item"><a href="#" class="nav__link">
+                                    Магазины
+                                </a></li>
+                            <li class="header__item"><a href="#" class="nav__link">
+                                    О нас
+                                </a></li>
+                            <li class="header__item"><a href="#" class="nav__link">
+                                    Доставка и оплата
+                                </a></li>
+                            <li class="header__item"><a href="#" class="nav__link">
+                                    Статьи
+                                </a></li>
+                        </ul>
+                    </nav>
+                    <form action="#" class="header__form flex">
+                        <button type="submit" class="btn-reset"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.2 8.5C13.2 11.0957 11.0957 13.2 8.5 13.2C5.90426 13.2 3.8 11.0957 3.8 8.5C3.8 5.90426 5.90426 3.8 8.5 3.8C11.0957 3.8 13.2 5.90426 13.2 8.5ZM12.062 13.938C11.039 14.6094 9.81512 15 8.5 15C4.91015 15 2 12.0899 2 8.5C2 4.91015 4.91015 2 8.5 2C12.0899 2 15 4.91015 15 8.5C15 10.1561 14.3806 11.6676 13.3609 12.8153L17.2728 16.7272L16 18L12 14L12.062 13.938Z"
+                                    fill="#303030" />
+                            </svg>
+                        </button>
+                        <label for="search">
+                            <input name="search" type="search" placeholder="Поиск по сайту">
+                        </label>
+                    </form>
+                </div>
+
+            </div>
+
+        
+
+            <div class="header__top flex">
+
+                <div class="header__connect flex">
+
+                    <div class="header__location flex">
+
+                        <span class="header__icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.99995 0C4.80479 0 2.20535 2.59944 2.20535 5.79456C2.20535 9.75981 7.39095 15.581 7.61173 15.8269C7.8191 16.0579 8.18117 16.0575 8.38817 15.8269C8.60895 15.581 13.7945 9.75981 13.7945 5.79456C13.7945 2.59944 11.1951 0 7.99995 0ZM7.99995 8.70997C6.39238 8.70997 5.08457 7.40213 5.08457 5.79456C5.08457 4.187 6.39242 2.87919 7.99995 2.87919C9.60748 2.87919 10.9153 4.18703 10.9153 5.79459C10.9153 7.40216 9.60748 8.70997 7.99995 8.70997Z"
+                                    fill="#303030" />
+                            </svg>
+                        </span>
+
+                        <select name="select" class="header__select">
+                            <option value="Санкт-Петербург">Санкт-Петербург</option>
+                            <option value="Москва">Москва</option>
+                            <option value="Нижний Новгород">Нижний Новгород</option>
+                            <option value="Ростов-на-Дону">Ростов-на-Дону</option>
+                        </select>
+
+                    </div>
+
+                    <div class="header__tel flex">
+                        <span class="header__icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_306_55)">
+                                    <path
+                                        d="M15.5645 11.7424L13.3317 9.50954C12.5342 8.71209 11.1786 9.0311 10.8596 10.0678C10.6204 10.7855 9.82292 11.1842 9.10522 11.0247C7.51033 10.626 5.35723 8.5526 4.9585 6.87797C4.71927 6.16024 5.19774 5.36279 5.91544 5.12359C6.95212 4.80461 7.2711 3.44895 6.47365 2.65151L4.2408 0.418659C3.60285 -0.139553 2.64591 -0.139553 2.0877 0.418659L0.572553 1.93381C-0.942594 3.5287 0.732042 7.75516 4.48004 11.5032C8.22803 15.2511 12.4545 17.0056 14.0494 15.4106L15.5645 13.8955C16.1228 13.2575 16.1228 12.3006 15.5645 11.7424Z"
+                                        fill="#303030" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_306_55">
+                                        <rect width="16" height="16" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                        </span>
+                        <a href="tel:88007852535">8 800 785-25-35</a>
+                    </div>
+                </div>
+
+                <div class="header__logo">
+                    <a href="index.html" class="header__link">
+                        <span class="header__company"><span class="header__company--styled">Goldy</span> Store</span>
+                        <br>
+                        <span class="header__descr">ювелирный магазин</span>
+                    </a>
+                </div>
+
+                <div class="header__widgets flex">
+
+                    <div class="header__personal">
+                        <a href="#" class="header__login">Вход</a>
+                        <a href="#" class="header__signin">Регистрация</a>
+                    </div>
+
+                    <ul class="list-reset header__bar flex">
+                        <li>
+                            <button class="btn-reset header__btn heart">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.99998 17.5C9.46248 17.0233 8.85498 16.5275 8.21248 16H8.20415C5.94165 14.15 3.37748 12.0566 2.24498 9.54829C1.87291 8.74973 1.67573 7.8809 1.66664 6.99996C1.66415 5.7912 2.14895 4.63245 3.01149 3.7856C3.87402 2.93875 5.04147 2.47529 6.24998 2.49996C7.23384 2.50151 8.19651 2.78586 9.02331 3.31913C9.38662 3.55493 9.71533 3.84017 9.99998 4.16663C10.2862 3.84145 10.615 3.55638 10.9775 3.31913C11.8039 2.78576 12.7664 2.50139 13.75 2.49996C14.9585 2.47529 16.1259 2.93875 16.9885 3.7856C17.851 4.63245 18.3358 5.7912 18.3333 6.99996C18.3248 7.88231 18.1276 8.75262 17.755 9.55246C16.6225 12.0608 14.0591 14.1533 11.7966 16L11.7883 16.0066C11.145 16.5308 10.5383 17.0266 10.0008 17.5066L9.99998 17.5ZM6.24998 4.16663C5.47374 4.15691 4.72504 4.454 4.16665 4.99329C3.62863 5.52176 3.32794 6.24583 3.33324 6.99996C3.34275 7.64204 3.48817 8.27484 3.75998 8.85663C4.29457 9.93888 5.0159 10.9183 5.89081 11.75C6.71665 12.5833 7.66665 13.39 8.48831 14.0683C8.71581 14.2558 8.94748 14.445 9.17915 14.6341L9.32498 14.7533C9.54748 14.935 9.77748 15.1233 9.99998 15.3083L10.0108 15.2983L10.0158 15.2941H10.0208L10.0283 15.2883H10.0325H10.0366L10.0516 15.2758L10.0858 15.2483L10.0916 15.2433L10.1008 15.2366H10.1058L10.1133 15.23L10.6666 14.7758L10.8116 14.6566C11.0458 14.4658 11.2775 14.2766 11.505 14.0891C12.3266 13.4108 13.2775 12.605 14.1033 11.7675C14.9783 10.9363 15.6997 9.95705 16.2341 8.87496C16.5109 8.28813 16.6584 7.64871 16.6667 6.99996C16.6701 6.24816 16.3696 5.52687 15.8333 4.99996C15.276 4.45823 14.5272 4.1587 13.75 4.16663C12.8016 4.15857 11.8949 4.5561 11.2583 5.25913L9.99998 6.70913L8.74165 5.25913C8.10503 4.5561 7.19838 4.15857 6.24998 4.16663Z"
+                                        fill="#303030" />
+                                </svg>
+
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn-reset header__btn stat">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="5.1" y1="10" x2="5.1" y2="17" stroke="#303030" stroke-width="2.2" />
+                                    <line x1="10.1" y1="2" x2="10.1" y2="17" stroke="#303030" stroke-width="2.2" />
+                                    <line x1="15.1" y1="5" x2="15.1" y2="17" stroke="#303030" stroke-width="2.2" />
+                                </svg>
+
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn-reset header__btn cart">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="5" width="16" height="13" rx="1" fill="white" />
+                                    <mask id="path-2-inside-1_306_45" fill="white">
+                                        <rect x="2" y="5" width="16" height="13" rx="1" />
+                                    </mask>
+                                    <rect x="2" y="5" width="16" height="13" rx="1" stroke="#303030" stroke-width="3.2"
+                                        mask="url(#path-2-inside-1_306_45)" />
+                                    <path d="M6 9L6 6C6 3.79086 7.79086 2 10 2V2C12.2091 2 14 3.79086 14 6L14 9"
+                                        stroke="#303030" stroke-width="1.6" />
+                                </svg>
+
+                            </button>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="header__bottom flex">
+                <nav class="header__nav">
+                    <ul class="list-reset header__nav flex">
+                        <li class="header__item nav-active"><a href="#" class="nav__link">
+                                Каталог
+                            </a></li>
+                        <li class="header__item"><a href="#" class="nav__link">
+                                Акции
+                            </a></li>
+                        <li class="header__item"><a href="#" class="nav__link">
+                                Бренды
+                            </a></li>
+                        <li class="header__item"><a href="#" class="nav__link">
+                                Магазины
+                            </a></li>
+                        <li class="header__item"><a href="#" class="nav__link">
+                                О нас
+                            </a></li>
+                        <li class="header__item"><a href="#" class="nav__link">
+                                Доставка и оплата
+                            </a></li>
+                        <li class="header__item"><a href="#" class="nav__link">
+                                Статьи
+                            </a></li>
+                    </ul>
+                </nav>
+                <form action="#" class="header__form flex">
+                    <button type="submit" class="btn-reset"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.2 8.5C13.2 11.0957 11.0957 13.2 8.5 13.2C5.90426 13.2 3.8 11.0957 3.8 8.5C3.8 5.90426 5.90426 3.8 8.5 3.8C11.0957 3.8 13.2 5.90426 13.2 8.5ZM12.062 13.938C11.039 14.6094 9.81512 15 8.5 15C4.91015 15 2 12.0899 2 8.5C2 4.91015 4.91015 2 8.5 2C12.0899 2 15 4.91015 15 8.5C15 10.1561 14.3806 11.6676 13.3609 12.8153L17.2728 16.7272L16 18L12 14L12.062 13.938Z"
+                                fill="#303030" />
+                        </svg>
+                    </button>
+                    <label for="search">
+                        <input name="search" type="search" placeholder="Поиск по сайту">
+                    </label>
+                </form>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="swiper mySwiper hero__swiper">
+                    <div class="swiper-wrapper hero__slides">
+                        <div class="swiper-slide hero__slide">
+                            <div class="hero__content">
+                                <span class="hero__sale">Суперскидка до 60%</span>
+                                <h1 class="hero__title">НА БРИЛЛИАНТЫ</h1>
+                                <a href="#" class="hero__link">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide hero__slide">
+                            <div class="hero__content">
+                                <span class="hero__sale">Суперскидка до 100%</span>
+                                <h2 class="hero__title h2-title">На что-нибудь ещё :)</h2>
+                                <a href="#" class="hero__link">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide hero__slide">
+
+                            <div class="hero__content">
+                                <span class="hero__sale">Суперскидка до 0%</span>
+                                <h2 class="hero__title h2-title">Сегодня без скидочек :(</h2>
+                                <a href="#" class="hero__link">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-reset swiper-pagination hero__pagination"></button>
+                    <button class="btn-reset swiper-button-next hero__next">
+                        <svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.646446 4.35355C0.451185 4.15829 0.451185 3.84171 0.646446 3.64645L3.82843 0.464465C4.02369 0.269203 4.34027 0.269203 4.53553 0.464465C4.7308 0.659727 4.7308 0.97631 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.7308 7.02369 4.7308 7.34027 4.53553 7.53553C4.34027 7.73079 4.02369 7.73079 3.82843 7.53553L0.646446 4.35355ZM17 4.5L1 4.5L1 3.5L17 3.5L17 4.5Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                    <button class="btn-reset swiper-button-prev hero__prev">
+                        <svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.646446 4.35355C0.451185 4.15829 0.451185 3.84171 0.646446 3.64645L3.82843 0.464465C4.02369 0.269203 4.34027 0.269203 4.53553 0.464465C4.7308 0.659727 4.7308 0.97631 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.7308 7.02369 4.7308 7.34027 4.53553 7.53553C4.34027 7.73079 4.02369 7.73079 3.82843 7.53553L0.646446 4.35355ZM17 4.5L1 4.5L1 3.5L17 3.5L17 4.5Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="container">
+                <h2 class="categories__title h2-title">Популярные категории</h2>
+                <ul class="list-reset categories__list row g-4">
+                    <li class="col-sm-6 col-lg-4 col-xxl-2 categories__item">
+                        <article class="categories__card flex">
+                            <picture class="categories__image">
+                                <source srcset="img/rings2x.png 2x">
+                                <img src="img/rings.png" alt="Кольцо">
+                            </picture>
+                            <a href="#" class="categories__link">Кольца</a>
+                        </article>
+                    </li>
+                    <li class="col-sm-6 col-lg-4 col-xxl-2 categories__item">
+                        <article class="categories__card flex">
+                            <picture class="categories__image">
+                                <source srcset="img/earrings2x.png 2x">
+                                <img src="img/earrings.png" alt="Серьги">
+                            </picture>
+                            <a href="#" class="categories__link">Серьги</a>
+                        </article>
+                    </li>
+                    <li class="col-sm-6 col-lg-4 col-xxl-2 categories__item">
+                        <article class="categories__card flex">
+                            <picture class="categories__image">
+                                <source srcset="img/weddingrings2x.png 2x">
+                                <img src="img/weddingrings.png" alt="Помоловочные кольца">
+                            </picture>
+                            <a href="#" class="categories__link">Помоловочные кольца</a>
+                        </article>
+                    </li>
+                    <li class="col-sm-6 col-lg-4 col-xxl-2 categories__item">
+                        <article class="categories__card flex">
+                            <picture class="categories__image">
+                                <source srcset="img/bracelet2x.png 2x">
+                                <img src="img/bracelet.png" alt="Браслет">
+                            </picture>
+                            <a href="#" class="categories__link">Браслеты</a>
+                        </article>
+                    </li>
+                    <li class="col-sm-6 col-lg-4 col-xxl-2 categories__item">
+                        <article class="categories__card flex">
+                            <picture class="categories__image">
+                                <source srcset="img/necklace2x.png 2x">
+                                <img src="img/necklace.png" alt="Колье и подвески">
+                            </picture>
+                            <a href="#" class="categories__link">Колье и подвески</a>
+                        </article>
+                    </li>
+                    <li class="col-sm-6 col-lg-4 col-xxl-2 categories__item">
+                        <article class="categories__card flex">
+                            <picture class="categories__image">
+                                <source srcset="img/watches2x.png 2x">
+                                <img src="img/watches.png" alt="Часы">
+                            </picture>
+                            <a href="#" class="categories__link">Часы</a>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="sale">
+            <div class="container">
+                <h2 class="sale__title h2-title">Распродажа</h2>
+                <div class="sale__wrapper">
+                    <div class="sale__inner flex">
+                        <ul class="list-reset sale__list tabs-nav flex">
+                            <li class="sale__item">
+                                <button
+                                    class="btn-reset sale__btn  sale__btn--active tabs-nav__btn tabs-nav__btn--active"
+                                    data-path="rings">Кольца</button>
+                            </li>
+                            <li class="sale__item">
+                                <button class="btn-reset sale__btn tabs-nav__btn" data-path="earrings">Серьги</button>
+                            </li>
+                            <li class="sale__item">
+                                <button class="btn-reset sale__btn tabs-nav__btn" data-path="bracelet">Браслеты</button>
+                            </li>
+                            <li class="sale__item">
+                                <button class="btn-reset sale__btn tabs-nav__btn" data-path="watches">Часы</button>
+                            </li>
+                        </ul>
+                        <div class="sale__buttons flex">
+                            <button class="btn-reset swiper-button-prev sale__prev"><svg width="17" height="8"
+                                    viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.646446 4.35355C0.451185 4.15829 0.451185 3.84171 0.646446 3.64645L3.82843 0.464465C4.02369 0.269203 4.34027 0.269203 4.53553 0.464465C4.7308 0.659727 4.7308 0.97631 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.7308 7.02369 4.7308 7.34027 4.53553 7.53553C4.34027 7.73079 4.02369 7.73079 3.82843 7.53553L0.646446 4.35355ZM17 4.5L1 4.5L1 3.5L17 3.5L17 4.5Z"
+                                        fill="black" />
+                                </svg></button>
+                            <button class="btn-reset swiper-button-next sale__next"><svg width="17" height="8"
+                                    viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.646446 4.35355C0.451185 4.15829 0.451185 3.84171 0.646446 3.64645L3.82843 0.464465C4.02369 0.269203 4.34027 0.269203 4.53553 0.464465C4.7308 0.659727 4.7308 0.97631 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.7308 7.02369 4.7308 7.34027 4.53553 7.53553C4.34027 7.73079 4.02369 7.73079 3.82843 7.53553L0.646446 4.35355ZM17 4.5L1 4.5L1 3.5L17 3.5L17 4.5Z"
+                                        fill="black" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="sale__content flex">
+                        <div class="sale__rings tabs-item tabs-item--active flex" data-target="rings">
+                            <div class="swiper mySwiper sale__swiper">
+                                <ul class="list-reset swiper-wrapper sale__sliders">
+
+                                    <li class="swiper-slide sale__slide flex">
+                                        <article class="sale__product product flex">
+                                            <div class="sale__info flex">
+                                                <div class="sale__off"><span>Sale</span></div>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="sale__images">
+                                                <div class="sale__image product__image">
+                                                    <div class="sale__switch product__switch image-switch">
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x1.png 2x">
+                                                                <img src="img/productring1.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x2.png 2x">
+                                                                <img src="img/productring2.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x3.png 2x">
+                                                                <img src="img/productring3.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="list-reset product__image-pagination image-pagination"
+                                                        aria-hidden="true"></ul>
+                                                </div>
+                                            </div>
+                                            <div class="sale__text">
+                                                <div class="sale__cost flex">
+                                                    <div class="price">
+                                                        <span class="sale__price">41 000 ₽</span>
+                                                        <span class="sale__old">65 000 ₽</span>
+                                                    </div>
+                                                    <span class="sale__percent">-45%</span>
+                                                </div>
+                                                <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                            </div>
+                                        </article>
+                                    </li>
+
+                                    <li class="swiper-slide sale__slide flex">
+                                        <article class="sale__product product flex">
+                                            <div class="sale__info flex">
+                                                <span></span>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="sale__images">
+                                                <div class="sale__image product__image">
+                                                    <div class="sale__switch product__switch image-switch">
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x2.png 2x">
+                                                                <img src="img/productring2.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x3.png 2x">
+                                                                <img src="img/productring3.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x4.png 2x">
+                                                                <img src="img/productring4.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="list-reset product__image-pagination image-pagination"
+                                                        aria-hidden="true"></ul>
+                                                </div>
+                                            </div>
+                                            <div class="sale__text">
+                                                <div class="sale__cost flex">
+                                                    <div class="price">
+                                                        <span class="sale__price">56 000 ₽</span>
+                                                    </div>
+                                                </div>
+                                                <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                            </div>
+                                        </article>
+                                    </li>
+
+                                    <li class="swiper-slide sale__slide flex">
+                                        <article class="sale__product product flex">
+                                            <div class="sale__info flex">
+                                                <span></span>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="sale__images">
+                                                <div class="sale__image product__image">
+                                                    <div class="sale__switch product__switch image-switch">
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x3.png 2x">
+                                                                <img src="img/productring3.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x4.png 2x">
+                                                                <img src="img/productring4.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x1.png 2x">
+                                                                <img src="img/productring1.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="list-reset product__image-pagination image-pagination"
+                                                        aria-hidden="true"></ul>
+                                                </div>
+                                            </div>
+                                            <div class="sale__text">
+                                                <div class="sale__cost flex">
+                                                    <div class="price">
+                                                        <span class="sale__price">37 500 ₽</span>
+                                                    </div>
+                                                </div>
+                                                <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                            </div>
+                                        </article>
+                                    </li>
+
+                                    <li class="swiper-slide sale__slide flex">
+                                        <article class="sale__product product flex">
+                                            <div class="sale__info flex">
+                                                <span></span>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="sale__images">
+                                                <div class="sale__image product__image">
+                                                    <div class="sale__switch product__switch image-switch">
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x4.png 2x">
+                                                                <img src="img/productring4.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x1.png 2x">
+                                                                <img src="img/productring1.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x2.png 2x">
+                                                                <img src="img/productring2.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="list-reset product__image-pagination image-pagination"
+                                                        aria-hidden="true"></ul>
+                                                </div>
+                                            </div>
+                                            <div class="sale__text">
+                                                <div class="sale__cost flex">
+                                                    <div class="price">
+                                                        <span class="sale__price">37 500 ₽</span>
+                                                    </div>
+                                                </div>
+                                                <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                            </div>
+                                        </article>
+                                    </li>
+
+                                    <li class="swiper-slide sale__slide flex">
+                                        <article class="sale__product product flex">
+                                            <div class="sale__info flex">
+                                                <div class="sale__off"><span>Sale</span></div>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="sale__images">
+                                                <div class="sale__image product__image">
+                                                    <div class="sale__switch product__switch image-switch">
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x1.png 2x">
+                                                                <img src="img/productring2.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x2.png 2x">
+                                                                <img src="img/productring2.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x3.png 2x">
+                                                                <img src="img/productring3.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="list-reset product__image-pagination image-pagination"
+                                                        aria-hidden="true"></ul>
+                                                </div>
+                                            </div>
+                                            <div class="sale__text">
+                                                <div class="sale__cost flex">
+                                                    <div class="price">
+                                                        <span class="sale__price">41 000 ₽</span>
+                                                        <span class="sale__old">65 000 ₽</span>
+                                                    </div>
+                                                    <span class="sale__percent">-45%</span>
+                                                </div>
+                                                <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+
+                                            </div>
+                                        </article>
+                                    </li>
+
+                                    <li class="swiper-slide sale__slide flex">
+                                        <article class="sale__product product flex">
+                                            <div class="sale__info flex">
+                                                <span></span>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="sale__images">
+                                                <div class="sale__image product__image">
+                                                    <div class="sale__switch product__switch image-switch">
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x2.png 2x">
+                                                                <img src="img/productring2.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x3.png 2x">
+                                                                <img src="img/productring3.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x4.png 2x">
+                                                                <img src="img/productring4.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="list-reset product__image-pagination image-pagination"
+                                                        aria-hidden="true"></ul>
+                                                </div>
+                                            </div>
+                                            <div class="sale__text">
+                                                <div class="sale__cost flex">
+                                                    <div class="price">
+                                                        <span class="sale__price">37 500 ₽</span>
+                                                    </div>
+                                                </div>
+                                                <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                            </div>
+                                        </article>
+                                    </li>
+
+                                    <li class="swiper-slide sale__slide flex">
+                                        <article class="sale__product product flex">
+                                            <div class="sale__info flex">
+                                                <span></span>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="sale__images">
+                                                <div class="sale__image product__image">
+                                                    <div class="sale__switch product__switch image-switch">
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x3.png 2x">
+                                                                <img src="img/productring3.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x4.png 2x">
+                                                                <img src="img/productring4.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x1.png 2x">
+                                                                <img src="img/productring1.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="list-reset product__image-pagination image-pagination"
+                                                        aria-hidden="true"></ul>
+                                                </div>
+                                            </div>
+                                            <div class="sale__text">
+                                                <div class="sale__cost flex">
+                                                    <div class="price">
+                                                        <span class="sale__price">37 500 ₽</span>
+                                                    </div>
+                                                </div>
+                                                <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                            </div>
+                                        </article>
+                                    </li>
+
+                                    <li class="swiper-slide sale__slide flex">
+                                        <article class="sale__product product flex">
+                                            <div class="sale__info flex">
+                                                <span></span>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="sale__images">
+                                                <div class="sale__image product__image">
+                                                    <div class="sale__switch product__switch image-switch">
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x4.png 2x">
+                                                                <img src="img/productring4.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x1.png 2x">
+                                                                <img src="img/productring1.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                        <div class="sale__image--switch image-switch__item">
+                                                            <picture class="image-switch__img">
+                                                                <source srcset="img/productring2x2.png 2x">
+                                                                <img src="img/productring2.png" alt="Кольцо">
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="list-reset product__image-pagination image-pagination"
+                                                        aria-hidden="true"></ul>
+                                                </div>
+                                            </div>
+                                            <div class="sale__text">
+                                                <div class="sale__cost flex">
+                                                    <div class="price">
+                                                        <span class="sale__price">37 500 ₽</span>
+                                                    </div>
+                                                </div>
+                                                <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                            </div>
+                                        </article>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sale__rings tabs-item" data-target="earrings">
+                            <span>Тест слайд серьги</span>
+                        </div>
+                        <div class="sale__rings tabs-item" data-target="bracelet">
+                            <span>Тест слайд браслеты</span>
+                        </div>
+                        <div class="sale__rings tabs-item" data-target="watches">
+                            <span>Тест слайд часы</span>
+                            <!-- <div class="swiper mySwiper sale__swiper">
+                                <ul class="list-reset swiper-wrapper sale__sliders">
+                                    <li class="swiper-slide sale__slide">
+                                        <article class="sale__product product">
+                                            <div class="sale__info flex">
+                                                <div class="sale__off"><span>Sale</span></div>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="sale__image product__image">
+                                                <div class="sale__switch product__switch image-switch">
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring1.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring2.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring3.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                </div>
+                                                <ul class="list-reset product__image-pagination image-pagination"
+                                                    aria-hidden="true"></ul>
+                                            </a>
+                                            <div class="sale__cost flex">
+                                                <div class="price">
+                                                    <span class="sale__price">41 000 ₽</span>
+                                                    <span class="sale__old">65 000 ₽</span>
+                                                </div>
+                                                <span class="sale__percent">-45%</span>
+                                            </div>
+                                            <p class="sale__descr">Тест часы</p>
+                                        </article>
+                                    </li>
+                                    <li class="swiper-slide sale__slide">
+                                        <article class="sale__product product">
+                                            <div class="sale__info flex">
+                                                <span></span>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="sale__image product__image">
+                                                <div class="sale__switch product__switch image-switch">
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring2.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring3.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring4.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                </div>
+                                                <ul class="list-reset product__image-pagination image-pagination"
+                                                    aria-hidden="true"></ul>
+                                            </a>
+                                            <div class="sale__cost flex">
+                                                <div class="price">
+                                                    <span class="sale__price">56 000 ₽</span>
+                                                </div>
+                                            </div>
+                                            <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                        </article>
+                                    </li>
+                                    <li class="swiper-slide sale__slide">
+                                        <article class="sale__product product">
+                                            <div class="sale__info flex">
+                                                <span></span>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="sale__image product__image">
+                                                <div class="sale__switch product__switch image-switch">
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring3.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring4.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring1.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                </div>
+                                                <ul class="list-reset product__image-pagination image-pagination"
+                                                    aria-hidden="true"></ul>
+                                            </a>
+                                            <div class="sale__cost flex">
+                                                <div class="price">
+                                                    <span class="sale__price">37 500 ₽</span>
+                                                </div>
+                                            </div>
+                                            <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                        </article>
+                                    </li>
+                                    <li class="swiper-slide sale__slide">
+                                        <article class="sale__product product">
+                                            <div class="sale__info flex">
+                                                <span></span>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="sale__image product__image">
+                                                <div class="sale__switch product__switch image-switch">
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring4.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring1.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring2.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                </div>
+                                                <ul class="list-reset product__image-pagination image-pagination"
+                                                    aria-hidden="true"></ul>
+                                            </a>
+                                            <div class="sale__cost flex">
+                                                <div class="price">
+                                                    <span class="sale__price">39 200 ₽</span>
+                                                </div>
+                                            </div>
+                                            <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                        </article>
+                                    </li>
+                                    <li class="swiper-slide sale__slide">
+                                        <article class="sale__product product">
+                                            <div class="sale__info flex">
+                                                <div class="sale__off"><span>Sale</span></div>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="sale__image product__image">
+                                                <div class="sale__switch product__switch image-switch">
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring1.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring2.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring3.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                </div>
+                                                <ul class="list-reset product__image-pagination image-pagination"
+                                                    aria-hidden="true"></ul>
+                                            </a>
+                                            <div class="sale__cost flex">
+                                                <div class="price">
+                                                    <span class="sale__price">41 000 ₽</span>
+                                                    <span class="sale__old">65 000 ₽</span>
+                                                </div>
+                                                <span class="sale__percent">-45%</span>
+                                            </div>
+                                            <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                        </article>
+                                    </li>
+                                    <li class="swiper-slide sale__slide">
+                                        <article class="sale__product product">
+                                            <div class="sale__info flex">
+                                                <span></span>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="sale__image product__image">
+                                                <div class="sale__switch product__switch image-switch">
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring2.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring3.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring4.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                </div>
+                                                <ul class="list-reset product__image-pagination image-pagination"
+                                                    aria-hidden="true"></ul>
+                                            </a>
+                                            <div class="sale__cost flex">
+                                                <div class="price">
+                                                    <span class="sale__price">56 000 ₽</span>
+                                                </div>
+                                            </div>
+                                            <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                        </article>
+                                    </li>
+                                    <li class="swiper-slide sale__slide">
+                                        <article class="sale__product product">
+                                            <div class="sale__info flex">
+                                                <span></span>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="sale__image product__image">
+                                                <div class="sale__switch product__switch image-switch">
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring3.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring4.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring1.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                </div>
+                                                <ul class="list-reset product__image-pagination image-pagination"
+                                                    aria-hidden="true"></ul>
+                                            </a>
+                                            <div class="sale__cost flex">
+                                                <div class="price">
+                                                    <span class="sale__price">37 500 ₽</span>
+                                                </div>
+                                            </div>
+                                            <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                        </article>
+                                    </li>
+                                    <li class="swiper-slide sale__slide">
+                                        <article class="sale__product product">
+                                            <div class="sale__info flex">
+                                                <span></span>
+                                                <ul class="list-reset sale__icons">
+                                                    <li class="sale__widget"><button class="btn-reset sale__heart"><svg
+                                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button></li>
+                                                    <li class="sale__widget">
+                                                        <button class="btn-reset sale__eye"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M13.0044 3.5C13.0044 2.94772 12.5567 2.5 12.0044 2.5C11.4521 2.5 11.0044 2.94772 11.0044 3.5V5.54989C10.0448 5.64609 9.12848 5.87731 8.27405 6.20772L7.4446 5.05037C7.12289 4.60146 6.49817 4.49836 6.04927 4.82007C5.60036 5.14179 5.49726 5.76651 5.81898 6.21541L6.45792 7.10695C5.92702 7.43178 5.434 7.79271 4.98539 8.17708C3.24791 9.6658 2 11.6684 2 13.5C2 15.3316 3.24791 17.3342 4.98539 18.8229C6.76222 20.3453 9.23586 21.5 12 21.5C14.7639 21.5 17.2376 20.3462 19.0145 18.8241C20.7522 17.3355 22 15.333 22 13.5C22 11.667 20.7522 9.66444 19.0145 8.17591C18.6848 7.89346 18.331 7.62368 17.9559 7.37161L18.6253 6.43759C18.947 5.98869 18.844 5.36398 18.3951 5.04225C17.9462 4.72053 17.3214 4.82362 16.9997 5.27252L16.1918 6.39975C15.2102 5.96793 14.1376 5.66528 13.0044 5.55075V3.5ZM12 9.5C9.79086 9.5 8 11.2909 8 13.5C8 15.7091 9.79086 17.5 12 17.5C14.2091 17.5 16 15.7091 16 13.5C16 11.2909 14.2091 9.5 12 9.5Z"
+                                                                    fill="#C9C9C9" />
+                                                            </svg>
+                                                        </button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="sale__image product__image">
+                                                <div class="sale__switch product__switch image-switch">
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring4.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring1.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                    <div class="sale__image--switch image-switch__item">
+                                                        <div class="image-switch__img"><img src="img/productring2.png"
+                                                                alt="Кольцо"></div>
+                                                    </div>
+                                                </div>
+                                                <ul class="list-reset product__image-pagination image-pagination"
+                                                    aria-hidden="true"></ul>
+                                            </a>
+                                            <div class="sale__cost flex">
+                                                <div class="price">
+                                                    <span class="sale__price">39 200 ₽</span>
+                                                </div>
+                                            </div>
+                                            <p class="sale__descr">Стильное кольцо из белого золота c бриллиантами</p>
+                                        </article>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                    <ul class="list-reset sale__offers flex row">
+                        <li class="sale__offer col-xs-12 col-sm-4 mb-2"><a href="#" class="sale__link">
+                            <picture> 
+                                <source srcset="img/salediamonds2x.png 2x">
+                                <img src="img/salediamonds.png" alt="Скидки на бриллианты">
+                            </picture>
+                            </a></li>
+                        <li class="sale__offer col-xs-12 col-sm-4 mb-2"><a href="#" class="sale__link">
+                            <picture> 
+                                <source srcset="img/salebracelets2x.png 2x">
+                                <img src="img/salebracelets.png" alt="Скидки на кольца и браслеты">
+                            </picture>
+                            </a></li>
+                        <li class="sale__offer col-xs-12 col-sm-4 mb-2"><a href="#" class="sale__link">
+                            <picture> 
+                                <source srcset="img/salerings2x.png 2x">
+                                <img src="img/salerings.png" alt="Скидки на обручальные кольца">
+                            </picture>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="dayoffer">
+            <div class="container">
+                <div class="dayoffer__topside flex">
+                    <h2 class="dayoffer__title h2-title">Товар дня</h2>
+                    <div class="dayoffer__swiper--btns flex">
+                        <button class="btn-reset swiper-button-prev dayoffer__swiper--main__prev"><svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.3536 4.35355C16.5488 4.15829 16.5488 3.84171 16.3536 3.64645L13.1716 0.464465C12.9763 0.269203 12.6597 0.269203 12.4645 0.464465C12.2692 0.659727 12.2692 0.97631 12.4645 1.17157L15.2929 4L12.4645 6.82843C12.2692 7.02369 12.2692 7.34027 12.4645 7.53553C12.6597 7.73079 12.9763 7.73079 13.1716 7.53553L16.3536 4.35355ZM4.37114e-08 4.5L16 4.5L16 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="black"/>
+                            </svg>
+                            </button>
+                        <button class="btn-reset swiper-button-next dayoffer__swiper--main__next"><svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.3536 4.35355C16.5488 4.15829 16.5488 3.84171 16.3536 3.64645L13.1716 0.464465C12.9763 0.269203 12.6597 0.269203 12.4645 0.464465C12.2692 0.659727 12.2692 0.97631 12.4645 1.17157L15.2929 4L12.4645 6.82843C12.2692 7.02369 12.2692 7.34027 12.4645 7.53553C12.6597 7.73079 12.9763 7.73079 13.1716 7.53553L16.3536 4.35355ZM4.37114e-08 4.5L16 4.5L16 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="black"/>
+                            </svg>
+                            </button>
+                    </div>
+                </div>
+                <div class="swiper mySwiper dayoffer__swiper--main">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><div class="dayoffer__wrapper flex">
+                        <div class="dayoffer__inner">
+                            <div class="dayoffer__image">
+                                <ul class="list-reset dayoffer__benefits flex">
+                                    <li class="dayoffer__benefit">New</li>
+                                    <li class="dayoffer__benefit">Хит</li>
+                                    <li class="dayoffer__benefit">Sale</li>
+                                </ul>
+                                <div class="swiper mySwiper dayoffer__swiper">
+                                    <ul class="list-reset swiper-wrapper">
+                                        <li class="swiper-slide">
+                                            <picture>
+                                                <source srcset="img/offerdayring2x.png 2x">
+                                                <img src="img/offerdayring.png" alt="Кольцо">
+                                            </picture>
+                                            </li>
+                                        <li class="swiper-slide">
+                                            <picture>
+                                                <source srcset="img/offerdayring2x.png 2x">
+                                                <img src="img/offerdayring.png" alt="Кольцо">
+                                            </picture>
+                                            </li>
+                                        <li class="swiper-slide">
+                                            <picture>
+                                                <source srcset="img/offerdayring2x.png 2x">
+                                                <img src="img/offerdayring.png" alt="Кольцо">
+                                            </picture>
+                                            </li>
+                                        <li class="swiper-slide">
+                                            <picture>
+                                                <source srcset="img/offerdayring2x.png 2x">
+                                                <img src="img/offerdayring.png" alt="Кольцо">
+                                            </picture>
+                                            </li>
+                                    </ul>
+                                    <button class="btn-reset swiper-button-next dayoffer__next"><svg width="10" height="16"
+                                            viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.07102 0.999977L8.14209 8.07104L1.07102 15.1421" stroke="#303030"
+                                                stroke-width="2" />
+                                        </svg>
+                                    </button>
+                                    <button class="btn-reset swiper-button-prev dayoffer__prev"><svg width="10" height="16"
+                                            viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.07102 0.999977L8.14209 8.07104L1.07102 15.1421" stroke="#303030"
+                                                stroke-width="2" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dayoffer__content">
+                            <div class="dayoffer__rating flex">
+                                <span class="dayoffer__star"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.5 0L10.7982 5.33674L16.584 5.87336L12.2186 9.70826L13.4962 15.3766L8.5 12.41L3.50383 15.3766L4.78137 9.70826L0.416019 5.87336L6.20176 5.33674L8.5 0Z"
+                                            fill="#E1A661" />
+                                    </svg>
+                                </span>
+                                <span class="dayoffer__star"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.5 0L10.7982 5.33674L16.584 5.87336L12.2186 9.70826L13.4962 15.3766L8.5 12.41L3.50383 15.3766L4.78137 9.70826L0.416019 5.87336L6.20176 5.33674L8.5 0Z"
+                                            fill="#E1A661" />
+                                    </svg>
+                                </span>
+                                <span class="dayoffer__star"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.5 0L10.7982 5.33674L16.584 5.87336L12.2186 9.70826L13.4962 15.3766L8.5 12.41L3.50383 15.3766L4.78137 9.70826L0.416019 5.87336L6.20176 5.33674L8.5 0Z"
+                                            fill="#E1A661" />
+                                    </svg>
+                                </span>
+                                <span class="dayoffer__star"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.5 0L10.7982 5.33674L16.584 5.87336L12.2186 9.70826L13.4962 15.3766L8.5 12.41L3.50383 15.3766L4.78137 9.70826L0.416019 5.87336L6.20176 5.33674L8.5 0Z"
+                                            fill="#E1A661" />
+                                    </svg>
+                                </span>
+                                <span class="dayoffer__star"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.5 1.26413L10.339 5.53451L10.4564 5.80719L10.7521 5.83461L15.3817 6.26399L11.8886 9.33262L11.6656 9.52856L11.7309 9.81819L12.7531 14.3539L8.75528 11.9801L8.5 11.8285L8.24472 11.9801L4.24687 14.3539L5.26913 9.81819L5.33441 9.52856L5.11136 9.33262L1.61828 6.264L6.24794 5.83461L6.54356 5.80719L6.66099 5.53451L8.5 1.26413Z"
+                                            stroke="#E1A661" />
+                                    </svg>
+                                </span>
+                                <span class="dayoffer__mark">4,2</span>
+                            </div>
+                            <h3 class="dayoffer__subtitle">Кольцо из золота с бриллиантами</h3>
+                            <span class="dayoffer__article">Артикул: 1012076</span>
+                            <div class="wrapper flex">
+                                <div class="price">
+                                    <span class="sale__price">22 000 ₽</span>
+                                    <span class="sale__old">22 000 ₽</span>
+                                    <span class="sale__percent percent">-45%</span>
+                                </div>
+                                <div class="dayoffer__timer flex">
+                                    <div class="dayoffer__hours">
+                                        <span class="hours">12</span>
+                                        <span class="hours-quantity">часов</span>
+                                    </div>
+                                    <span>:</span>
+                                    <div class="dayoffer__minutes">
+                                        <span class="hours">46</span>
+                                        <span class="hours-quantity">минут</span>
+                                    </div>
+                                    <span>:</span>
+                                    <div class="dayoffer__seconds">
+                                        <span class="hours">51</span>
+                                        <span class="hours-quantity">секунд</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dayoffer__colors">
+                                <span class="dayoffer__color parametres">ЦВЕТ</span>
+                                <ul class="list-reset dayoffer__buttons flex">
+                                    <li class="dayoffer__color--item">
+                                        <button class="btn-reset dayoffer__btn gray"></button>
+                                    </li>
+                                    <li class="dayoffer__color--item">
+                                        <button class="btn-reset dayoffer__btn yellow dayoffer__btn--active"></button>
+                                    </li>
+                                    <li class="dayoffer__color--item">
+                                        <button class="btn-reset dayoffer__btn orange"></button>
+                                    </li>
+                                    <li class="dayoffer__color--item">
+                                        <button class="btn-reset dayoffer__btn green" disabled></button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dayoffer__sizes">
+                                <div class="inner flex">
+                                    <span class="dayoffer__size parametres">РАЗМЕР</span>
+                                <button class="btn-reset projects__tooltip"
+                                    data-tippy-content="Также как существующая теория напрямую зависит от экономической целесообразности принимаемых решений."><svg
+                                        width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="9" cy="9" r="9" fill="#D3D3D3" />
+                                        <path
+                                            d="M8.25 10.4901H9.46875V10.4091C9.4858 9.42898 9.76705 8.99006 10.4915 8.54261C11.2543 8.08239 11.723 7.43466 11.723 6.47585C11.723 5.09091 10.6747 4.15341 9.1108 4.15341C7.67472 4.15341 6.52415 4.9929 6.46875 6.52699H7.7642C7.81534 5.62358 8.45881 5.22727 9.1108 5.22727C9.83523 5.22727 10.4233 5.70881 10.4233 6.46307C10.4233 7.09801 10.027 7.54545 9.51989 7.8608C8.72727 8.34659 8.25852 8.82812 8.25 10.4091V10.4901ZM8.89347 13.081C9.35795 13.081 9.74574 12.7017 9.74574 12.2287C9.74574 11.7642 9.35795 11.3807 8.89347 11.3807C8.42472 11.3807 8.04119 11.7642 8.04119 12.2287C8.04119 12.7017 8.42472 13.081 8.89347 13.081Z"
+                                            fill="#303030" />
+                                    </svg>
+                                </button>
+                                </div>
+                                <ul class="list-reset dayoffer__diameters flex">
+                                    <li class="dayoffer__item--size diameter-active">
+                                        <button class="btn-reset dayoffer__diameter btn-active">16,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size diameter-hover">
+                                        <button class="btn-reset dayoffer__diameter btn-hover">17,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter">18,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter">19</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter">19,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter">19,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter">18,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter">19</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter" disabled>19,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter" disabled>19,5</button>
+                                    </li>
+                                </ul>
+
+                                <ul class="list-reset dayoffer__diameters dayoffer__diameters--tablet flex">
+                                    <li class="dayoffer__item--size diameter-active">
+                                        <button class="btn-reset dayoffer__diameter btn-active">16,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size diameter-hover">
+                                        <button class="btn-reset dayoffer__diameter btn-hover">17,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter">18,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter">19</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter">19,5</button>
+                                    </li>  
+                                </ul>
+
+                                <ul class="list-reset dayoffer__diameters dayoffer__diameters--tablet flex">
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter">19,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter">18,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter">19</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter" disabled>19,5</button>
+                                    </li>
+                                    <li class="dayoffer__item--size">
+                                        <button class="btn-reset dayoffer__diameter" disabled>19,5</button>
+                                    </li>
+                                </ul>
+    
+                            </div>
+                            <div class="dayoffer__byuing flex">
+                                <div class="dayoffer__buy flex">
+                                    <button class="btn-reset dayoffer__cart">в корзину</button>
+                                    <button class="btn-reset dayoffer__click">купить в 1 клик</button>
+                                </div>
+                                <ul class="list-reset dayoffer__icons flex">
+                                    <li class="dayoffer-icon">
+                                        <button class="btn-reset dayoffer__save"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z" fill="#C9C9C9"/>
+                                            </svg>
+                                            Сохранить</button>
+                                    </li>
+                                    <li class="dayoffer-icon">
+                                        <button class="btn-reset dayoffer__compare"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="5.1" y1="10" x2="5.1" y2="17" stroke="#C9C9C9" stroke-width="2.2"/>
+                                            <line x1="10.1" y1="2" x2="10.1" y2="17" stroke="#C9C9C9" stroke-width="2.2"/>
+                                            <line x1="15.1" y1="5" x2="15.1" y2="17" stroke="#C9C9C9" stroke-width="2.2"/>
+                                            </svg>
+                                            Сравнить</button>
+                                    </li>
+                                    <li class="dayoffer-icon">
+                                        <button class="btn-reset dayoffer__share"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6667 4.58329C11.6667 2.97246 12.9725 1.66663 14.5833 1.66663C16.1942 1.66663 17.5 2.97246 17.5 4.58329C17.5 6.19411 16.1942 7.49996 14.5833 7.49996C13.769 7.49996 13.0327 7.16626 12.5036 6.62816L8.22756 9.21884C8.29649 9.46745 8.33333 9.7294 8.33333 9.99996C8.33333 10.243 8.3036 10.4791 8.24758 10.7049L12.6009 13.2773C13.1212 12.7949 13.8178 12.5 14.5833 12.5C16.1942 12.5 17.5 13.8058 17.5 15.4166C17.5 17.0274 16.1942 18.3333 14.5833 18.3333C12.9725 18.3333 11.6667 17.0274 11.6667 15.4166C11.6667 15.1736 11.6964 14.9375 11.7524 14.7118L7.39908 12.1394C6.87875 12.6217 6.18214 12.9166 5.41667 12.9166C3.80585 12.9166 2.5 11.6108 2.5 9.99996C2.5 8.38914 3.80585 7.08329 5.41667 7.08329C6.15373 7.08329 6.82695 7.3567 7.34042 7.80763L11.7222 5.15284C11.6858 4.96864 11.6667 4.7782 11.6667 4.58329ZM14.5833 3.33329C13.893 3.33329 13.3333 3.89294 13.3333 4.58329C13.3333 5.27364 13.893 5.83329 14.5833 5.83329C15.2737 5.83329 15.8333 5.27364 15.8333 4.58329C15.8333 3.89294 15.2737 3.33329 14.5833 3.33329ZM5.41667 8.74996C4.72632 8.74996 4.16667 9.30961 4.16667 9.99996C4.16667 10.6903 4.72632 11.25 5.41667 11.25C6.10701 11.25 6.66667 10.6903 6.66667 9.99996C6.66667 9.30961 6.10701 8.74996 5.41667 8.74996ZM14.5833 14.1666C13.893 14.1666 13.3333 14.7263 13.3333 15.4166C13.3333 16.107 13.893 16.6666 14.5833 16.6666C15.2737 16.6666 15.8333 16.107 15.8333 15.4166C15.8333 14.7263 15.2737 14.1666 14.5833 14.1666Z" fill="#C9C9C9"/>
+                                            </svg>
+                                            Поделиться</button>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div></div>
+                      <div class="swiper-slide">Slide 2</div>
+                    </div>
+                  </div>
+                <!-- <div class="dayoffer__wrapper flex">
+                    <div class="dayoffer__inner">
+                        <div class="dayoffer__image">
+                            <ul class="list-reset dayoffer__benefits flex">
+                                <li class="dayoffer__benefit">New</li>
+                                <li class="dayoffer__benefit">Хит</li>
+                                <li class="dayoffer__benefit">Sale</li>
+                            </ul>
+                            <div class="swiper mySwiper dayoffer__swiper">
+                                <ul class="list-reset swiper-wrapper">
+                                    <li class="swiper-slide"><img src="img/offerdayring.png" alt="Кольцо"></li>
+                                    <li class="swiper-slide"><img src="img/offerdayring.png" alt="Кольцо"></li>
+                                    <li class="swiper-slide"><img src="img/offerdayring.png" alt="Кольцо"></li>
+                                    <li class="swiper-slide"><img src="img/offerdayring.png" alt="Кольцо"></li>
+                                </ul>
+                                <button class="btn-reset swiper-button-next dayoffer__next"><svg width="10" height="16"
+                                        viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.07102 0.999977L8.14209 8.07104L1.07102 15.1421" stroke="#303030"
+                                            stroke-width="2" />
+                                    </svg>
+                                </button>
+                                <button class="btn-reset swiper-button-prev dayoffer__prev"><svg width="10" height="16"
+                                        viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.07102 0.999977L8.14209 8.07104L1.07102 15.1421" stroke="#303030"
+                                            stroke-width="2" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dayoffer__content">
+                        <div class="dayoffer__rating flex">
+                            <span class="dayoffer__star"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.5 0L10.7982 5.33674L16.584 5.87336L12.2186 9.70826L13.4962 15.3766L8.5 12.41L3.50383 15.3766L4.78137 9.70826L0.416019 5.87336L6.20176 5.33674L8.5 0Z"
+                                        fill="#E1A661" />
+                                </svg>
+                            </span>
+                            <span class="dayoffer__star"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.5 0L10.7982 5.33674L16.584 5.87336L12.2186 9.70826L13.4962 15.3766L8.5 12.41L3.50383 15.3766L4.78137 9.70826L0.416019 5.87336L6.20176 5.33674L8.5 0Z"
+                                        fill="#E1A661" />
+                                </svg>
+                            </span>
+                            <span class="dayoffer__star"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.5 0L10.7982 5.33674L16.584 5.87336L12.2186 9.70826L13.4962 15.3766L8.5 12.41L3.50383 15.3766L4.78137 9.70826L0.416019 5.87336L6.20176 5.33674L8.5 0Z"
+                                        fill="#E1A661" />
+                                </svg>
+                            </span>
+                            <span class="dayoffer__star"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.5 0L10.7982 5.33674L16.584 5.87336L12.2186 9.70826L13.4962 15.3766L8.5 12.41L3.50383 15.3766L4.78137 9.70826L0.416019 5.87336L6.20176 5.33674L8.5 0Z"
+                                        fill="#E1A661" />
+                                </svg>
+                            </span>
+                            <span class="dayoffer__star"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.5 1.26413L10.339 5.53451L10.4564 5.80719L10.7521 5.83461L15.3817 6.26399L11.8886 9.33262L11.6656 9.52856L11.7309 9.81819L12.7531 14.3539L8.75528 11.9801L8.5 11.8285L8.24472 11.9801L4.24687 14.3539L5.26913 9.81819L5.33441 9.52856L5.11136 9.33262L1.61828 6.264L6.24794 5.83461L6.54356 5.80719L6.66099 5.53451L8.5 1.26413Z"
+                                        stroke="#E1A661" />
+                                </svg>
+                            </span>
+                            <span class="dayoffer__mark">4,2</span>
+                        </div>
+                        <h3 class="dayoffer__subtitle">Кольцо из золота с бриллиантами</h3>
+                        <span class="dayoffer__article">Артикул: 1012076</span>
+                        <div class="wrapper flex">
+                            <div class="price">
+                                <span class="sale__price">22 000 ₽</span>
+                                <span class="sale__old">22 000 ₽</span>
+                                <span class="sale__percent percent">-45%</span>
+                            </div>
+                            <div class="dayoffer__timer flex">
+                                <div class="dayoffer__hours">
+                                    <span class="hours">12</span>
+                                    <span class="hours-quantity">часов</span>
+                                </div>
+                                <span>:</span>
+                                <div class="dayoffer__minutes">
+                                    <span class="hours">46</span>
+                                    <span class="hours-quantity">минут</span>
+                                </div>
+                                <span>:</span>
+                                <div class="dayoffer__seconds">
+                                    <span class="hours">51</span>
+                                    <span class="hours-quantity">секунд</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dayoffer__colors">
+                            <span class="dayoffer__color parametres">ЦВЕТ</span>
+                            <ul class="list-reset dayoffer__buttons flex">
+                                <li class="dayoffer__color--item">
+                                    <button class="btn-reset dayoffer__btn gray"></button>
+                                </li>
+                                <li class="dayoffer__color--item">
+                                    <button class="btn-reset dayoffer__btn yellow dayoffer__btn--active"></button>
+                                </li>
+                                <li class="dayoffer__color--item">
+                                    <button class="btn-reset dayoffer__btn orange"></button>
+                                </li>
+                                <li class="dayoffer__color--item">
+                                    <button class="btn-reset dayoffer__btn green" disabled></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dayoffer__sizes">
+                            <div class="inner flex">
+                                <span class="dayoffer__size parametres">РАЗМЕР</span>
+                            <button class="btn-reset projects__tooltip"
+                                data-tippy-content="Также как существующая теория напрямую зависит от экономической целесообразности принимаемых решений."><svg
+                                    width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9" cy="9" r="9" fill="#D3D3D3" />
+                                    <path
+                                        d="M8.25 10.4901H9.46875V10.4091C9.4858 9.42898 9.76705 8.99006 10.4915 8.54261C11.2543 8.08239 11.723 7.43466 11.723 6.47585C11.723 5.09091 10.6747 4.15341 9.1108 4.15341C7.67472 4.15341 6.52415 4.9929 6.46875 6.52699H7.7642C7.81534 5.62358 8.45881 5.22727 9.1108 5.22727C9.83523 5.22727 10.4233 5.70881 10.4233 6.46307C10.4233 7.09801 10.027 7.54545 9.51989 7.8608C8.72727 8.34659 8.25852 8.82812 8.25 10.4091V10.4901ZM8.89347 13.081C9.35795 13.081 9.74574 12.7017 9.74574 12.2287C9.74574 11.7642 9.35795 11.3807 8.89347 11.3807C8.42472 11.3807 8.04119 11.7642 8.04119 12.2287C8.04119 12.7017 8.42472 13.081 8.89347 13.081Z"
+                                        fill="#303030" />
+                                </svg>
+                            </button>
+                            </div>
+                            <ul class="list-reset dayoffer__diameters flex">
+                                <li class="dayoffer__item--size diameter-active">
+                                    <button class="btn-reset dayoffer__diameter btn-active">16,5</button>
+                                </li>
+                                <li class="dayoffer__item--size diameter-hover">
+                                    <button class="btn-reset dayoffer__diameter btn-hover">17,5</button>
+                                </li>
+                                <li class="dayoffer__item--size">
+                                    <button class="btn-reset dayoffer__diameter">18,5</button>
+                                </li>
+                                <li class="dayoffer__item--size">
+                                    <button class="btn-reset dayoffer__diameter">19</button>
+                                </li>
+                                <li class="dayoffer__item--size">
+                                    <button class="btn-reset dayoffer__diameter">19,5</button>
+                                </li>
+                                <li class="dayoffer__item--size">
+                                    <button class="btn-reset dayoffer__diameter">19,5</button>
+                                </li>
+                                <li class="dayoffer__item--size">
+                                    <button class="btn-reset dayoffer__diameter">18,5</button>
+                                </li>
+                                <li class="dayoffer__item--size">
+                                    <button class="btn-reset dayoffer__diameter">19</button>
+                                </li>
+                                <li class="dayoffer__item--size">
+                                    <button class="btn-reset dayoffer__diameter" disabled>19,5</button>
+                                </li>
+                                <li class="dayoffer__item--size">
+                                    <button class="btn-reset dayoffer__diameter" disabled>19,5</button>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="dayoffer__byuing flex">
+                            <div class="dayoffer__buy flex">
+                                <button class="btn-reset dayoffer__cart">в корзину</button>
+                                <button class="btn-reset dayoffer__click">купить в 1 клик</button>
+                            </div>
+                            <ul class="list-reset dayoffer__icons flex">
+                                <li class="dayoffer-icon">
+                                    <button class="btn-reset dayoffer__save"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z" fill="#C9C9C9"/>
+                                        </svg>
+                                        Сохранить</button>
+                                </li>
+                                <li class="dayoffer-icon">
+                                    <button class="btn-reset dayoffer__compare"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line x1="5.1" y1="10" x2="5.1" y2="17" stroke="#C9C9C9" stroke-width="2.2"/>
+                                        <line x1="10.1" y1="2" x2="10.1" y2="17" stroke="#C9C9C9" stroke-width="2.2"/>
+                                        <line x1="15.1" y1="5" x2="15.1" y2="17" stroke="#C9C9C9" stroke-width="2.2"/>
+                                        </svg>
+                                        Сравнить</button>
+                                </li>
+                                <li class="dayoffer-icon">
+                                    <button class="btn-reset dayoffer__share"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6667 4.58329C11.6667 2.97246 12.9725 1.66663 14.5833 1.66663C16.1942 1.66663 17.5 2.97246 17.5 4.58329C17.5 6.19411 16.1942 7.49996 14.5833 7.49996C13.769 7.49996 13.0327 7.16626 12.5036 6.62816L8.22756 9.21884C8.29649 9.46745 8.33333 9.7294 8.33333 9.99996C8.33333 10.243 8.3036 10.4791 8.24758 10.7049L12.6009 13.2773C13.1212 12.7949 13.8178 12.5 14.5833 12.5C16.1942 12.5 17.5 13.8058 17.5 15.4166C17.5 17.0274 16.1942 18.3333 14.5833 18.3333C12.9725 18.3333 11.6667 17.0274 11.6667 15.4166C11.6667 15.1736 11.6964 14.9375 11.7524 14.7118L7.39908 12.1394C6.87875 12.6217 6.18214 12.9166 5.41667 12.9166C3.80585 12.9166 2.5 11.6108 2.5 9.99996C2.5 8.38914 3.80585 7.08329 5.41667 7.08329C6.15373 7.08329 6.82695 7.3567 7.34042 7.80763L11.7222 5.15284C11.6858 4.96864 11.6667 4.7782 11.6667 4.58329ZM14.5833 3.33329C13.893 3.33329 13.3333 3.89294 13.3333 4.58329C13.3333 5.27364 13.893 5.83329 14.5833 5.83329C15.2737 5.83329 15.8333 5.27364 15.8333 4.58329C15.8333 3.89294 15.2737 3.33329 14.5833 3.33329ZM5.41667 8.74996C4.72632 8.74996 4.16667 9.30961 4.16667 9.99996C4.16667 10.6903 4.72632 11.25 5.41667 11.25C6.10701 11.25 6.66667 10.6903 6.66667 9.99996C6.66667 9.30961 6.10701 8.74996 5.41667 8.74996ZM14.5833 14.1666C13.893 14.1666 13.3333 14.7263 13.3333 15.4166C13.3333 16.107 13.893 16.6666 14.5833 16.6666C15.2737 16.6666 15.8333 16.107 15.8333 15.4166C15.8333 14.7263 15.2737 14.1666 14.5833 14.1666Z" fill="#C9C9C9"/>
+                                        </svg>
+                                        Поделиться</button>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <section class="news">
+            <div class="container">
+                <div class="news__wrapper flex">
+                    <h2 class="news__title h2-title">Статьи</h2>
+                    <a href="#" class="news__link">Читать все <svg width="27" height="12" viewBox="0 0 27 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M26.5303 6.53033C26.8232 6.23744 26.8232 5.76257 26.5303 5.46967L21.7574 0.696701C21.4645 0.403808 20.9896 0.403808 20.6967 0.696701C20.4038 0.989594 20.4038 1.46447 20.6967 1.75736L24.9393 6L20.6967 10.2426C20.4038 10.5355 20.4038 11.0104 20.6967 11.3033C20.9896 11.5962 21.4645 11.5962 21.7574 11.3033L26.5303 6.53033ZM-6.55671e-08 6.75L26 6.75L26 5.25L6.55671e-08 5.25L-6.55671e-08 6.75Z" fill="black"/>
+                        </svg>
+                        </a>
+                </div>
+                <ul class="list-reset news__list row g-4">
+                    <li class="news__item col-sm-6 col-md-6 col-lg-3">
+                        <article class="news__card flex">
+                            <picture>
+                                <source srcset="img/news2x1.png 2x">
+                                <img src="img/news1.png" alt="Обручальные кольца" class="news__img">
+                            </picture>
+                            <span class="news__date">21 сентября 2021</span>
+                            <h4 class="news__subtitle"><a href="#" class="news__theme">Обручальные кольца: тренды 2021</a></h4>
+                        </article>
+                    </li>
+                    <li class="news__item col-sm-6 col-md-6 col-lg-3">
+                        <article class="news__card flex">
+                            <picture>
+                                <source srcset="img/news2x2.png 2x">
+                                <img src="img/news2.png" alt="Девушка с колье" class="news__img">
+                            </picture>
+                            <span class="news__date">25 сентября 2021</span>
+                            <h4 class="news__subtitle"><a href="#" class="news__theme">Главные ювелирные тренды года</a></h4>
+                        </article>
+                    </li>
+                    <li class="news__item col-sm-6 col-md-6 col-lg-3">
+                        <article class="news__card flex">
+                            <picture>
+                                <source srcset="img/news2x3.png 2x">
+                                <img src="img/news3.png" alt="Жемчуг" class="news__img">
+                            </picture>
+                            <span class="news__date">21 сентября 2021</span>
+                            <h4 class="news__subtitle"><a href="#" class="news__theme">Жемчуг: 7 малоизвестных фактов о культовом украшении</a></h4>
+                        </article>
+                    </li>
+                    <li class="news__item col-sm-6 col-md-6 col-lg-3">
+                        <article class="news__card flex">
+                            <picture>
+                                <source srcset="img/news2x4.png 2x">
+                                <img src="img/news4.png" alt="Рука с подвеской" class="news__img">
+                            </picture>
+                            <span class="news__date">21 сентября 2021</span>
+                            <h4 class="news__subtitle"><a href="#" class="news__theme">Как отличить золото от подделки: 10 практических советов</a></h4>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="libs/choices.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

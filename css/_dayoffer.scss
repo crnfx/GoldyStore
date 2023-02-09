@@ -1,0 +1,348 @@
+.dayoffer {
+
+    margin-bottom: $sectionMarginBottom;
+
+    &__topside {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // &__title {
+    //     margin: 0;
+    //     margin-bottom: 40px;
+    //     font-family: 'Prata', sans-serif;
+    //     font-weight: 400;
+    //     font-size: 40px;
+    //     line-height: 100%;
+    //     color: $mainTextColor;
+    // }
+
+    &__swiper--main__next, &__swiper--main__prev {
+        position: static;
+        width: 54px;
+        height: 54px;
+        position: static;
+        border: 1px solid #303030;
+        border-radius: 50%;
+    }
+
+    &__swiper--main__next {
+        margin-left: 8px;
+    }
+
+    &__swiper--main__prev {
+        transform: rotate(180deg);
+    }
+
+    &__swiper--main__next:active svg, &__swiper--main__prev:active svg {
+        transform: translateX(10px);
+    }
+
+    &__wrapper {
+        justify-content: space-between;
+    }
+
+    &__inner {
+        width: 43%;
+    }
+
+    &__content {
+        width: 50%;
+    }
+
+    &__prev {
+        transform: rotate(180deg);
+    }
+
+    .swiper-button-next::after, .swiper-button-prev::after {
+        content: '';
+    }
+
+    &__benefit {
+        padding: 4px 10px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        color: #FFFFFF;
+        border-radius: 15px;
+    }
+
+    &__benefit:first-child {
+        background-color: #495159;
+    }
+
+    &__benefit:nth-child(2) {
+        background-color: #E1A661;
+    }
+
+    &__benefit:last-child {
+        background-color: #5B8A8F;
+    }
+
+    &__benefit:not(:last-child) {
+        margin-right: 4px;
+    }
+
+    &__rating {
+        margin-bottom: 25px;
+        align-items: center;
+    }
+
+    &__star {
+        margin-right: 6px;
+    }
+
+    &__mark {
+        margin-left: 4px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 15px;
+        color: $mainTextColor;
+    }
+
+    &__subtitle {
+        margin: 0;
+        margin-bottom: 20px;
+        font-family: 'Prata', sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 32px;
+        color: $mainTextColor;
+    }
+
+    .wrapper {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #F0F0F0;
+    }
+
+    &__article {
+        display: block;
+        margin-bottom: 2px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: #8F8F8F;
+    }
+
+    .price span:not(:last-child) {
+        margin-right: 16px;
+    }
+
+    &__diameters--tablet {
+        display: none;
+    }
+
+    &__timer {
+        padding: 12px 14px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F5F5F5;
+    }
+
+    &__timer span {
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+
+    &__hours, &__minutes, &__seconds {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 26%;
+        padding: 6px 7px;
+        border: 1px solid #D0D0D0;
+        background-color: #FFFFFF;
+    }
+
+    .hours {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        color: $mainTextColor;
+    }
+
+    .hours-quantity {
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 11px;
+        color: $mainTextColor;
+    }
+
+    .percent {
+        height: 21px;
+    }
+
+    .parametres {
+        display: block;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 13px;
+        color: $mainTextColor;
+    }
+
+    &__btn {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        outline: 1px solid #DADADA;
+        outline-offset: 4px;
+    }
+
+    &__colors {
+        margin-bottom: 30px;
+    }
+
+    &__color {
+        margin-bottom: 16px;
+    }
+
+    &__color--item:not(:last-child) {
+        margin-right: 16px;
+    }
+
+    &__btn--active {
+        outline: 1px solid #303030;
+    }
+
+    .gray {
+        background-color: #D9D9D9;
+    }
+
+    .yellow {
+        background-color: #F1CB7E;
+    }
+
+    .orange {
+        background-color: #EA8C48;
+    }
+
+    .green {
+        background-color: #A7E492;
+    }
+
+    .inner {
+        margin-bottom: 14px;
+        align-items: center;
+    }
+
+    &__sizes {
+        margin-bottom: 40px;
+    }
+    
+    &__size {
+        margin-right: 8px;
+    }
+
+    &__diameters {
+        justify-content: space-between;
+    }
+
+    &__item--size {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px 11px;
+        width: 26px;
+        border: 1px solid #DADADA;
+        transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__item--size:hover {
+        border-color: #303030;
+    }
+
+    &__item--size:active {
+        background-color: #303030;
+    }
+
+    &__item--size:active button {
+        color: #FFFFFF;
+    }
+
+    &__diameter {
+        transition: color 0.2s ease-in-out;
+    }
+
+    .diameter-active {
+        background-color: #303030;
+    }
+
+    .btn-active {
+        color: #FFFFFF;
+    }
+
+    .diameter-hover {
+        border-color: #303030;
+    }
+
+    &__buy {
+        margin-right: 39px;
+        flex-direction: column;
+    }
+
+    &__cart, &__click {
+        padding: 21px 128px;
+        text-transform: uppercase;
+    }
+
+    &__cart {
+        margin-bottom: 10px;
+        background-color: #303030;
+        color: #FFFFFF;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    &__cart:hover {
+        background-color: #505050;
+    }
+
+    &__cart:active {
+        background-color: #000000;
+    }
+
+    &__click {
+        border: 1px solid #303030;
+        color: #303030;
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    }
+
+    &__click:hover {
+        background-color: #303030;
+        color: #FFFFFF;
+    }
+
+    &__click:active {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+    &__icons {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    &__save path {
+        transition: fill 0.2s ease-in-out;
+    }
+
+    &__save:hover path {
+        fill: #979797;
+    }
+
+    &__save:active path {
+        fill: #E24B33;
+    }
+
+    &__save--active path {
+        fill: #E24B33
+    }
+
+    .dayoffer-icon:not(:last-child) {
+        margin-bottom: 18px;
+    }
+
+}

@@ -1,0 +1,37 @@
+.categories {
+
+    margin-bottom: $sectionMarginBottom;
+
+    // &__title {
+    //     margin: 0;
+    //     margin-bottom: 40px;
+    //     font-family: 'Prata', sans-serif;
+    //     font-weight: 400;
+    //     font-size: 40px;
+    //     line-height: 100%;
+    //     color: $mainTextColor;
+    // }
+
+    &__list {
+        justify-content: space-between;
+    }
+
+    &__card {
+        padding: 61px 37px 25px 37px;
+        min-height: 259px;
+        flex-direction: column;
+        align-items: center;
+        align-content: flex-end;
+        background-color: #F8F8F8;
+    }
+
+    &__link {
+        margin-top: auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: $mainTextColor;
+    }
+
+}
